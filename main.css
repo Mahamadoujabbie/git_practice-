@@ -1,8 +1,28 @@
 h1{
-    background-color: blue;
     width: 400px;
     height: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
 }
 #mom{
     background-color: brown;
+}
+#mama{
+    background-color: blue;
+    margin-right: 5px;
+}
+
+#grandma{
+    background-color: aqua;
+    margin-left: 5px;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
 }
